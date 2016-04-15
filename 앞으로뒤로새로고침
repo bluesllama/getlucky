@@ -1,0 +1,4 @@
+<a href="#forward" onclick="javascript:history.go(-1)">앞으로</a>
+<a href="#refresh" onclick="javascript:history.go(0)">새로고침</a>
+ 
+<a href="#back" onclick="javascript:history.go(1)">뒤로</a> / <a href="#" onClick="history.back();">
