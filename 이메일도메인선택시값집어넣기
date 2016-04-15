@@ -1,0 +1,23 @@
+<input id="customerEmailLocal" name="EmailLocal" type="text"> @ 
+<input title="이메일 도메인 입력" name="EmailDomain" type="text"> 
+
+<select title="이메일 도메인 선택" name="emailprovidor" onchange="this.form.EmailDomain.value=this[this.selectedIndex].value;">
+                                <option value="" selected="selected">선택</option>
+                                <option value="paran.com">파란</option>
+                                <option value="magicn.com">매직엔</option>
+                                <option value="hanmir.com">한미르</option>
+                                <option value="hitel.net">하이텔</option>
+                                <option value="kornet.net">코넷</option>
+                                <option value="naver.com">네이버</option>
+                                <option value="nate.com">네이트</option>
+                                <option value="empal.com">엠파스</option>
+                                <option value="hanmail.net">한메일(다음)</option>
+                                <option value="lycos.co.kr">라이코스</option>
+                                <option value="hotmail.com">핫메일</option>
+                                <option value="yahoo.co.kr">야후</option>
+                                <option value="netian.com">네띠앙</option>
+                                <option value="korea.com">코리아닷컴</option>
+                                <option value="chollian.net">천리안</option>
+                                <option value="hitel.net">하이텔</option>
+                                <option value="">직접입력</option>
+                        </select>
